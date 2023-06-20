@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Vite Vannila Weather App</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <a href="https://vitejs.dev" target="_blank">
+                <img src="vite.svg" class="logo" alt="Vite logo"/>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                <img src="javascript.svg" class="logo vanilla" alt="JavaScript logo"/>
+            </a>
+            <h1>Vite-Vannila Weather App!</h1>
+
+            <div class="d-flex flex-column mb-3">
+                <input type="text" id="cityOrZipCode" class="form-control"
+                       placeholder="Please, Enter city name or ZIP code">
+                <button id="submit" class="btn btn-outline-info ml-2">Check Weather</button>
+            </div>
+
+            <div class="card">
+                <div id="weatherInfosId" class="mt-4"></div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="module" src="/main.js"></script>
+
+</body>
+</html>
